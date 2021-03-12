@@ -12,3 +12,5 @@ además, algunas cosas importantes:
 * git commit -m ""
 * git push
 * git status
+
+* nico rocks
