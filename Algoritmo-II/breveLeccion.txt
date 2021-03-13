@@ -1,0 +1,7 @@
+1) Dojo
+2) hello, x is 15
+3) n is 3, x is 18
+4) n is 3, n is 5, x is 16
+5) c is 5, c is 8, x is 13
+6) c is 5, c is 3, c is 6, c is 3, c is 5, c is 8, x is 19
+7) 15, 15
