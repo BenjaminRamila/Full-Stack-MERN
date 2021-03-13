@@ -25,15 +25,15 @@ h3 {
 }
 p {
   font-size: 85%;
-  padding: 10PX;
+  padding: 10px;
 }
 
 /* Header Here */
 .header {
-    height: 50px;
-    padding-bottom: 10px;
-    background-color: #fff;
-  }
+  height: 50px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
 .headerBlocks {
   display: inline-block;
   margin: 20px;
@@ -51,7 +51,7 @@ p {
 }
 .mainContent {
   height: auto;
-  background-color: rgb(87, 22, 22);
+  background-image: linear-gradient(rgb(37, 24, 24), rgb(95, 60, 85));
   padding: 10px;
 }
 .mainTop {
@@ -68,7 +68,7 @@ p {
   padding: 0;
 }
 .aboutBlock {
-  background-color: gray;
+  background-image: linear-gradient(rgb(177, 177, 177), rgb(73, 73, 72));
   margin: 0px;
   padding: 10px;
 }
@@ -80,27 +80,82 @@ img {
   padding: 5px;
   background-color: white;
 }
-.imgPublication {
-    height: 10%;
-    padding: 5px;
-    background-color: white;
-  }
-.publicationBlock {
-    background-color: gray;
-    width: 200px;
-    margin: 0px;
-    padding: 10px;
-  }
-.publicationDescription{
-    /* display: inline-block; */
-    background-color: #fff;
-    margin: 10px;
-    height: 500px;
-    width: 220px;
-    padding: 0;
+.imgLaMode {
+  width: 210px;
 }
+.mainCenter {
+  padding: 10px;
+}
+
+.imgPublication {
+  height: 10%;
+  padding: 5px;
+  background-color: white;
+}
+
+.publication {
+  display: inline-block;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(195, 170, 202));
+  margin: 0px 12px 12px 0px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.publicationBlock {
+  background-image: linear-gradient(rgb(177, 177, 177), rgb(73, 73, 72));
+  width: 235px;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+}
+.publicationDescription {
+  text-align: justify;
+  height: 170px;
+  width: 255px;
+  padding: 0;
+}
+.techIconsBox {
+  width: 255px;
+  text-align: left;
+}
+.techIcon {
+  width: 15%;
+  padding: 4px;
+  display: inline-block;
+  text-align: left;
+  background-color: transparent;
+}
+.button {
+  background-color: #135f16; 
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center; 
+  display: inline-block;
+  text-decoration: none;
+  font-size: 70%;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px black;
+  margin: 15px;
+  vertical-align: bottom;
+}
+
 .footer {
-  height: 50px;
+  height: 70px;
   text-align: center;
   background-color: #fff;
+  vertical-align: top;
+
+}
+.footer a {
+  font-size: 80%;
+  vertical-align: top;    
+  font-style: italic;
+}
+.footerIcon {
+  width: 2%;
+  height: auto;
+  display: inline-block;
+  padding: 1px;
 }
