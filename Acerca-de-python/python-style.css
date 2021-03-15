@@ -1,0 +1,242 @@
+* {
+  /* outline: red 1px dotted; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 970px;
+  height: 500px;
+  background-color: #235076;
+}
+.wrapperTop {
+  height: 160px;
+}
+.headerL {
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  width: 500px;
+}
+.header {
+  height: 140px;
+}
+.headerR {
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  width: 455px;
+  text-align: right;
+}
+img {
+  height: 100px;
+  margin: 20px 40px;
+  display: inline-block;
+}
+.textSize {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 50px 0px 10px;
+  color: #dfdfdf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85%;
+  height: 20px;
+}
+.searchBarBox {
+  background-color: #444444;
+  height: 60px;
+  width: 300px;
+  display: inline-block;
+  margin: 2px;
+  vertical-align: top;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+.textSize a {
+  color: #bda500;
+}
+input {
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.navBar ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+.navBar li {
+  display: inline-block;
+  margin: 10px 20px 10px 0px;
+}
+.navBar {
+  background-color: #477ead;
+  height: 50px;
+  width: 850px;
+  display: inline-block;
+  margin: 2px 100px;
+  vertical-align: top;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+.navBar a {
+  color: #dfdfdf;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  font-size: 150%;
+}
+.navBar a:hover {
+  color: #bda500;
+}
+.mainL li {
+  list-style-type: none;
+  color: #e9edf1;
+  text-align: center;
+}
+.mainL li::before {
+  content: "\00BB";
+  color: #bda500;
+}
+.mainL li a {
+  color: #e9edf1;
+  text-align: center;
+}
+
+.mainL {
+  margin: 10px 0px 0px 40px;
+  display: inline-block;
+  font-size: 130%;
+  font-weight: lighter;
+  line-height: 150%;
+}
+.mainR {
+  display: inline-block;
+  vertical-align: top;
+  color: #e9edf1;
+  width: 650px;
+  text-align: center;
+  margin: 10px 20px 0px 20px;
+  font-size: 90%;
+}
+.mainR h2 {
+  color: #fbd033;
+  font-size: 130%;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 90%;
+}
+.mainR span {
+  font-size: 100%;
+}
+
+.mainBot {
+  background-color: rgb(255, 255, 255);
+  height: 225px;
+  width: 970px;
+}
+.decoBar {
+  height: 4px;
+  background-color: #72a7d5;
+  margin-top: 10px;
+}
+.mainBotL {
+  width: 400px;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
+  text-align: center;
+}
+.mainBotL li {
+  list-style-type: square;
+  margin: 0px 15px;
+}
+.mainBotR li {
+  list-style-type: square;
+  margin: 0px 15px;
+}
+.mainBotR {
+  width: 400px;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+.mainBotL h2 {
+  font-size: 110%;
+  color: #333333;
+  margin: 5px;
+  padding: 0;
+}
+.mainBotL p {
+  margin: 0px;
+  color: #333333;
+  font-size: 90%;
+  text-align: justify;
+  text-align: center;
+}
+.mainBotL span {
+  color: #97bee0;
+}
+
+.mainBotR h2 {
+  font-size: 110%;
+  margin: 5px;
+  padding: 0;
+}
+.mainBotR p {
+  margin: 0px;
+  font-size: 90%;
+  text-align: justify;
+  text-align: center;
+}
+.mainBotR span {
+  color: #97bee0;
+}
+.footer {
+  background: rgb(47, 109, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 109, 162, 1) 0%,
+    rgba(35, 80, 118, 1) 58%
+  );
+  height: 100px;
+  width: 970px;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.footer li {
+  display: inline-block;
+  margin: 10px 20px 10px 0px;
+  margin-top: 50px;
+}
+.footer a {
+  text-decoration: none;
+  text-align: center;
+  color: #76abd8;
+}
+.footer p {
+  color: #76abd8;
+  margin-top: 0px;
+  font-size: 60%;
+}
+button {
+  background-color:   #235076;
+  color: #dfdfdf;
+  padding: 8px 10px;
+  border-color: silver;
+  font-size: 70%;
+
+  border-radius: 5px;
+}
