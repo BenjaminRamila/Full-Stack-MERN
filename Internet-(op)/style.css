@@ -1,0 +1,24 @@
+* {
+  outline: dotted 1px red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headTop {
+  height: 100px;
+  display: inline-block;
+  margin: 0px;
+}
+.headTop img {
+  height:80px ;
+}
+.headTop h1 {
+  display: inline-block;
+  color: rgb(88, 88, 88);
+  vertical-align: top;
+  font-size: 2.5rem;
+  font-weight: normal;
+
+}
+.headTop span {
+  color: rgb(55, 83, 161);
+}
