@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  margin: 0px;
+  display: block;
+}
+.desktop,
+.tablet,
+.phone {
+  display: none;
+}
+h1,
+p,
+.boxY {
+  border: 1px solid #c2b593;
+  padding: 10px;
+  margin: 10px;
+  max-width: 95%;
+}
+
+h1 {
+  background-color: #b3b3b3;
+}
+p {
+  background-color: #cccccc;
+}
+.boxY {
+  background-color: #ffff99;
+  width: 100%;
+}
+@media only screen and (max-width: 480px) {
+  .phone {
+    display: block;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+}
