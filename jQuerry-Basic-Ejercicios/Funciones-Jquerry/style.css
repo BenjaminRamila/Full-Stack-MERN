@@ -1,0 +1,15 @@
+section {
+    display: inline-block;
+    text-align: center;
+}
+button {
+    margin: 65px 20px 20px;
+    vertical-align: top;
+}
+hr {
+margin-left: 20px;
+width: 420px;
+}
+.red{
+    background-color: red;
+}

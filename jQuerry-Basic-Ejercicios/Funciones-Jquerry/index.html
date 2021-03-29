@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funciones JQuerry</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button class="1">AddClass</button>
+    <section>
+      <h1>AddClass</h1>
+      <p class="1">Click the button to add class 'red' to this paragraph</p>
+    </section>
+    <hr />
+    <button class="2">Slidetoggle</button>
+    <section>
+      <h1>Slidetoggle</h1>
+      <p class="2">Click the button to slidetoggle a hidden image</p>
+    </section>
+    <img src="pudu.jfif" alt="">
+    <hr />
+    <button class="3">Append</button>
+    <section>
+      <h1>Append</h1>
+      <p class="3">Click the button to append a new paragraph!</p>
+    </section>
+
+    <script>
+        $('img').hide();
+        $('h1').hover(function(){
+            
+            $('h1').fadeOut();
+            $('h1').fadeIn();
+        }); 
+
+      $("button.1").click(function () {
+        $("p.1").addClass("red");
+      });
+      $("button.2").click(function () {
+        $('img').slideToggle();
+      });
+      $("button.3").click(function () {
+        $('p.3').append('<p>New paragraph!</p>');
+      });
+    </script>
+  </body>
+</html>
