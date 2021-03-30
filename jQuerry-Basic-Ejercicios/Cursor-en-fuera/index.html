@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    
+<div class="box"><img src="curtain.jpg" data-alt-src='https://sketchok.com/images/articles/03-games/012-mario/12/12.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='yoshi.png' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='http://yeux.com.mx/ColumnaUniversitaria/wp-content/uploads/2014/05/mario-kart-8-lakitu-300x300.png' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLeT9huQ_pxDvKi5g6zoVn1D15-GUY8U5S_A&usqp=CAU' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='https://www.wikihow.com/images/c/c2/Draw-Princess-Peach-Step-11.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLkjS0p88BUQumgrMae1MWEJnaZnn1PZQdFg&usqp=CAU' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='https://www.nintenderos.com/wp-content/uploads/2019/08/mario-kart-tour-art-icon-image-mobile-moviles-nintendo-super.jpg2_.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8t2jmndEWCzNCaJh1Eg_gIFBSodekwuZGQ&usqp=CAU' alt=""></div>
+<div class="box"><img src="curtain.jpg" data-alt-src='shyguy.jpg' alt=""></div>
+
+
+
+
+
+
+
+    <script>
+
+
+$('img').hover(function(){
+    var $temp = $(this).attr('src');
+            $(this).attr('src', $(this).attr('data-alt-src'));
+            $(this).attr('data-alt-src', $temp);
+    console.log($(this).attr('data-alt-src'));
+});
+
+    </script>
+</body>
+</html>
