@@ -1,0 +1,133 @@
+benja@PC-BENJITO MINGW64 ~/Desktop
+$ mkdir test
+
+benja@PC-BENJITO MINGW64 ~/Desktop
+$ cd ./test
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test
+$ touch index.html styles.css
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test
+$ git init
+Initialized empty Git repository in C:/Users/benja/Desktop/test/.git/
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git commit -m 'this is a test'
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git add .
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   styles.css
+
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git commit 'this is a test'
+error: pathspec 'this is a test' did not match any file(s) known to git
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git commit -m 'this is a test'
+[master (root-commit) ac049cb] this is a test
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git add index.html
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git commit -m 'actualizacion de html'
+[master 81ae42b] actualizacion de html
+ 1 file changed, 12 insertions(+)
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git add .
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git commit -m 'actualizacion de css'
+[master 61b7a35] actualizacion de css
+ 1 file changed, 3 insertions(+)
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git log
+commit 61b7a35dbfd6c2a541845dbdeb4c478e06d06813 (HEAD -> master)
+Author: Benjamin Ramila <benjaminramila@gmail.com>
+Date:   Thu Apr 1 18:58:49 2021 -0300
+
+    actualizacion de css
+
+commit 81ae42ba5cb886078c6fd40f5b2aba50e527164f
+Author: Benjamin Ramila <benjaminramila@gmail.com>
+Date:   Thu Apr 1 18:58:16 2021 -0300
+
+    actualizacion de html
+
+commit ac049cbf59b735d59e9656a5a1890d2e6e4487d2
+Author: Benjamin Ramila <benjaminramila@gmail.com>
+Date:   Thu Apr 1 18:56:39 2021 -0300
+
+    this is a test
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$ git revert -n HEAD
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master|REVERTING)
+$ git add .
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master|REVERTING)
+$ git commit -m 'here we go again'
+[master fa88c5e] here we go again
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+benja@PC-BENJITO MINGW64 ~/Desktop/test (master)
+$
