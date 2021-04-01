@@ -1,0 +1,81 @@
+benja@PC-BENJITO MINGW64 ~
+$ cd ./desktop
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mkdir test
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ cd ./test
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ touch index.html styles.css
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ cp index.html index2.html
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ cd ..
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mkdir destino
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mv /test/index2.html /destino/index2.html
+mv: cannot stat '/test/index2.html': No such file or directory
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mv ^C
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mv . /test/index2.html ./destino/index2.html
+mv: target './destino/index2.html' is not a directory
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mv . /test/index2.html ./destino
+mv: cannot move '.' to a subdirectory of itself, './destino/.'
+mv: cannot stat '/test/index2.html': No such file or directory
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ mv ./test/index2.html ./destino/index2.html
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ cd ./test
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ rm style.css
+rm: cannot remove 'style.css': No such file or directory
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ rm styles.css
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ ls
+index.html
+
+benja@PC-BENJITO MINGW64 ~/desktop/test
+$ cd ..
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ cd ./destino
+
+benja@PC-BENJITO MINGW64 ~/desktop/destino
+$ ls
+index2.html
+
+benja@PC-BENJITO MINGW64 ~/desktop/destino
+$ cd ..
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ rmdir destino
+rmdir: failed to remove 'destino': Directory not empty
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ rmdir -rf destino
+rmdir: unknown option -- r
+Try 'rmdir --help' for more information.
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$ rm -rf destino
+
+benja@PC-BENJITO MINGW64 ~/desktop
+$
