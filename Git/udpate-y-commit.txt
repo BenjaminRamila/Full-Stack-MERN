@@ -1,0 +1,9 @@
+1) ir a https://github.com/jjun14/git_demo y clickear en "fork"
+2) en el directorio que trabajaremos, abrir el terminal
+3) en el terminal escribiremos 'git clone https://github.com/jjun14/git_demo'
+4) en la copia local, modificamos el archivo 'demo_index.html'
+5) luego hacemos 'git add .' 'git commit -m 'mensaje'', 'git push'
+6) vamos a nuestro fork en github, en mi caso https://github.com/BenjaminRamila/git_demo
+7) hacemos click en 'pull request' y luego en 'create pull request'
+8) escribimos un mensaje, y abajo apretamos 'create pull request'
+9) podremos revisar todos los detalles del pull e incluso 'cerrar' el pull request.
