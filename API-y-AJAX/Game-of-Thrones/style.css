@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url('https://www.blackbirdpublichouse.com/wp-content/uploads/Slide-BG-GOT.jpg');
+}
+
+
+img{
+    border: 2px solid rgb(100, 100, 100);
+border-radius: 20px;
+height: 100px;}
+
+
+.content{
+border-radius: 20px;
+
+    border: 3px solid rgb(94, 94, 94);
+    width: 600px;
+    height: 200px;
+    display: inline-block;
+    padding: 40px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
