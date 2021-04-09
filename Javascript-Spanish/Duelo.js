@@ -33,7 +33,7 @@ class Efecto extends Carta {
     console.log("\x1b[33m%s\x1b[0m",this.texto);
   }
 }
-// - - - MAKING CARDS
+// - - - -  MAKING CARDS
 
 const redBelt = new Unidad("Ninja Cinturón Rojo", 3, 3, 4);
 const blackBelt = new Unidad("Ninja Cinturón Negro", 4, 5, 4);
