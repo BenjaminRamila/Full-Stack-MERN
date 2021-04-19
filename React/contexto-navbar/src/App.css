@@ -1,0 +1,22 @@
+*{
+  font-size: 1.3rem;
+}
+
+.navBar{
+  background-color: rgb(117, 0, 153);
+  color: white;
+  padding: 1rem;
+  text-align: end;
+}
+
+.formWrap{
+  padding: 2rem;
+}
+
+input[type=text] {
+  background-color: #dddddd;
+  color: rgb(117, 117, 117);
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.2rem;
+}
