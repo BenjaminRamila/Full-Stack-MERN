@@ -1,0 +1,36 @@
+body{
+text-align: center;
+background-color: black;
+background-image: url('https://fondosmil.com/fondo/49883.png');
+}
+.swapi{
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+justify-content: center;
+animation-name: fade;
+animation-duration: 4s;}
+
+input, select{
+  padding: 1rem;
+  border: none;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+
+}
+#sw-logo {height: 10rem;
+  border-radius: 1rem;
+}
+@keyframes fade {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+#div-result{
+  border: 2px solid white;
+  display: inline-block;
+  width: auto;
+  padding: 1rem 10rem;
+background-color: black;
+
+
+}
