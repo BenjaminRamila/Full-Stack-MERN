@@ -1,0 +1,16 @@
+### /api/user/new
+
+POST http://localhost:5000/api/users/new
+
+### /api/companies/new
+
+POST http://localhost:5000/api/companies/new
+
+###
+
+POST http://localhost:5000/api/user/company
+
+
+###
+
+GET http://localhost:5000/

@@ -1,0 +1,40 @@
+### Mensajes ERROR
+GET http://localhost:8000/
+
+### Usuarios
+
+GET http://localhost:8000/api/users
+
+
+### Nuevo  Usuario
+
+POST http://localhost:8000/api/users 
+content-type: application/json
+
+{
+    "firstName": "sample1",
+    "lastName": "Jenkins",
+    "time": "Wed, 21 Oct 2015 18:27:50 GTM"
+}
+
+### Usuario Especifico
+GET http://localhost:8000/api/users/0
+
+### Cambiar Usuario Especifico
+
+PUT http://localhost:8000/api/users/0
+content-type: application/json
+
+{
+    "firstName": "coding",
+    "lastName": "dojo",
+    "time": "Wed, 21 Oct 2015 18:27:50 GTM"
+}
+
+### Eliminar Usuario Especifico
+
+DELETE http://localhost:8000/api/users/0
+
+### TEST
+
+GET  http://localhost:8000/api/test
