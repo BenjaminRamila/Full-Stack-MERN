@@ -1,0 +1,28 @@
+#TEST
+GET http://localhost:5000/api
+
+### POST
+
+POST http://localhost:5000/api/product
+content-type: application/json
+
+{
+    "title": "Titulo",
+    "price": 5,
+    "description": "descripcion"
+}
+
+###
+
+GET http://localhost:5000/api/product
+
+### get one product
+
+GET http://localhost:5000/api/product/60a55a38155e2d4fd446f272
+### get one product404
+
+GET http://localhost:5000/api/product/60a55a38155e2d4fd4462272
+
+### delete one product
+
+DELETE http://localhost:5000/api/product/60a70e47f10d784f7c4f2a41
